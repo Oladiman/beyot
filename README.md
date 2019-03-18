@@ -1,2 +1,2 @@
 # beyot
-A financial , taxation , management and consulting firm.
+Financial,Taxation & Management Consultants
