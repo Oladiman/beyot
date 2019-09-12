@@ -24,7 +24,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .main-menu ul.navbar-nav li {
     display: inline-block;
-    padding: 0 8px;
+    padding: 8px 2.75px;
   }
   .layer-1-1 h2 {
     font-size: 24px;
@@ -116,6 +116,8 @@
   }
 }
 
+/* small mobile (dee)  */
+
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
@@ -126,8 +128,10 @@
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
-    height: 60px  !important;
+    height: 6rem  !important;
     padding: 9px 0;
+    background-color: black;
+    color: ivory;
   }
   .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
     padding: 15px 0;
@@ -274,6 +278,10 @@
 /* Large Mobile :480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header-area {
+    height: 60px !important;
+    background-color: black;
+  }
   .submitbtn {
     float: none;
     width: 99.8%;
